@@ -38,12 +38,12 @@ Prior to unsupervised machine learning model building, high-level snapshots of t
 Below are two bar graphs showing the proportion of tweets that belonged to a Senator or a Representative and the proportion belong to a specific political party. Additionally, the most prolific tweeters can be found in the third bar graph.
 
 <p float="center">
-  <img src="./assets/img1.png" width="125" />
-  <img src="./assets/img2.png" width="125" /> 
+  <img src="./assets/img1.png" width="500" />
+  <img src="./assets/img2.png" width="500" /> 
 </p>
 
 <p float="center">
-  <img src="./assets/img3.png" width="150" />
+  <img src="./assets/img3.png" width="600" />
 </p>
 
 ![](./assets/img4.png)
