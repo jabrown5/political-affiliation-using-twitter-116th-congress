@@ -134,6 +134,8 @@ About 74 percent of Democrats were in Cluster 0 (26 percent in Cluster 1). More 
 
 Lastly, a simple program was written in a Jupyter Lab notebook that allows a user to input the Twitter handle of a Senator or Representative of the 116th Congress and receive the five most similar Senators or Representatives based on the cosine similarity of the selected Twitter account and all other accounts. Cosine similarity, for this project, ranges from -1 to 1 with at or near 1 indicating a high level of similarity and scores at or near -1 indicating a highly dissimilar set of documents. This value is calculated as the cosine of the angle degrees between two word vectors. 
 
+Using state of Illinois Senator Tammy Duckworth as an example, below is a list of the five most similar and five least similar Twitter accounts of fellow Congress Persons.
+
 ![](./assets/img11.png)
 
 ## Recommendations and Next Steps
@@ -153,6 +155,4 @@ Lastly, a simple program was written in a Jupyter Lab notebook that allows a use
 - https://textblob.readthedocs.io/en/dev/
 - https://docs.python.org/3/library/re.html
 - https://towardsdatascience.com/unsupervised-learning-techniques-using-python-k-means-and-silhouette-score-for-clustering-d6dd1f30b660
-- https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html?highlight=t%20sne#sklearn.manifold.TSNE
-- 
-- 
+- https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html?highlight=t%20sne#sklearn.manifold.TSNE 
