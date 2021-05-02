@@ -124,11 +124,11 @@ Also, the most frequently occuring words are below and include 'today', 'work', 
 
 **Cluster 0 most frequent word list**
 
-![](./assets/img4-0.png)
+![](./assets/img12.png)
 
 **Cluster 1 most frequent word list**
 
-![](./assets/img4-1.png)
+![](./assets/img13.png)
 
 #### Sentiment Analyses
 
