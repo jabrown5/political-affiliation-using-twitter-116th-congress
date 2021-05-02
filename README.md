@@ -108,7 +108,14 @@ Once the final model had been determined, analysis of these clusters was underta
 
 Also, the most frequently occuring words are below and include 'today', 'work', 'need', 'Trump', and 'help'.
 
-![](./assets/img4.png)
+Complete Corpus            |  Cluster 0            |  Cluster 1
+:-------------------------:|:-------------------------:|:-------------------------:
+![](./assets/img4.png)  |  !![](./assets/img4_0.png)  | ![](./assets/img4_1.png) 
+
+
+<!-- ![](./assets/img4.png)
+![](./assets/img4_0.png)
+![](./assets/img4_1.png) -->
 
 #### Sentiment Analyses
 
