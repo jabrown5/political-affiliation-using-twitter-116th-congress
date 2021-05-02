@@ -108,7 +108,7 @@ Once the final model had been determined, analysis of these clusters was underta
 
 Also, the most frequently occuring words are below and include 'today', 'work', 'need', 'Trump', and 'help' for the complete corpus. When examining clusters, however, the top words differ with Cluster 1's top five words being 'today', 'work', 'thank', help', and 'need'. Cluster 0's top five did not differ from the overall corpus.
 
-![](./assets/img4.png)
+![](./assets/img14.png)
 
 
 #### Sentiment Analyses
