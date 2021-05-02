@@ -47,8 +47,6 @@ Below are two bar graphs showing the proportion of tweets that belonged to a Sen
 
 ![](./assets/img3.png)
 
-![](./assets/img4.png)
-
 ## Data Processing
 
 As this is a text centered project, several specialized Python packages were used to further refine the dataframe:
@@ -104,21 +102,46 @@ Model 3:
 
 Based on the silhouette scores and inertia values, the final model selected was Model 2 or the CVEC model with scaled data, PCA, and t-SNE.
 
-#### Analyses
+## Analyses
 
+Once the final model had been determined, analysis of these clusters was undertaken. The final model had two clusters: Cluster 0 with 278 rows or documents and the slightly smaller Cluster 1 with 243 rows.
 
-#### Results
+Also, the most frequently occuring words are below and include 'today', 'work', 'need', 'Trump', and 'help'.
 
+![](./assets/img4.png)
 
-## Data Dictionary
+#### Sentiment Analyses
 
+Using [*TextBlob*](https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis), a Sentiment Analysis for each cluster was undertaken. The TextBlob Sentiment Analysis produces a score between -1 and 1 where -1 is highly negative, 0 is neutral, and 1 is positive. Based on the graphs below, Cluster 0 has a slightly lower sentiment score and smaller spread of values. On the flip side, Cluster 1 has a greater spread and slightly higher sentiment average. 
 
-## Conclusions
+![](./assets/img6.png) ![](./assets/img7.png)
 
+#### Cluster Demographics
 
-## Recommendations
+Number of tweets were binned into five equally sized gropus. Cluster 0 had the most active tweeters with 100 percent of those recording 2659 tweets or more found in this cluster.  Around 63 percent of those logging 2659 tweets or less were in Cluster 1.
 
+![](./assets/img8.png) 
 
+The graph below shows that an approximately equal number of Representatives are found in both clusters. Senators, however, were found more often in Cluster 0 with around 66 percent found in Cluster 0 and 33 percent found in Cluster 1.
+
+![](./assets/img9.png)
+
+About 74 percent of Democrats were in Cluster 0 (26 percent in Cluster 1). More Republicans were found in Cluster 1 - 70 percent versus 30 percent in Cluster 0.
+
+![](./assets/img10.png)
+
+#### Similarity
+
+Lastly, a simple program was written in a Jupyter Lab notebook that allows a user to input the Twitter handle of a Senator or Representative of the 116th Congress and receive the five most similar Senators or Representatives based on the cosine similarity of the selected Twitter account and all other accounts. Cosine similarity, for this project, ranges from -1 to 1 with at or near 1 indicating a high level of similarity and scores at or near -1 indicating a highly dissimilar set of documents. This value is calculated as the cosine of the angle degrees between two word vectors. 
+
+![](./assets/img11.png)
+
+## Recommendations and Next Steps
+- Collect more official Senator and Representative Twitter data.
+- Explore other dimensionality reduction measures.
+- Use other word vectorization packages.
+    - Gensim, GloVe
+    
 ## Sources
 
 - https://github.com/alexlitel/congresstweets

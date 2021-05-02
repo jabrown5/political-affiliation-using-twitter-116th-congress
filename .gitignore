@@ -1,3 +1,15 @@
+# Folders to ignore
+/data/scrape/*
+/data/*
+
+code/01.5_Create_Initial_DFs.ipynb
+code/02_Create_DF_Initial_EDA-original.ipynb
+code/Untitled.ipynb
+
+# Files to ignore (exceeds githubs 100 MB limit)
+cleaned_df.csv
+concat_df.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
