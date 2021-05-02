@@ -108,16 +108,10 @@ Once the final model had been determined, analysis of these clusters was underta
 
 Also, the most frequently occuring words are below and include 'today', 'work', 'need', 'Trump', and 'help'.
 
-Complete Corpus            |  Cluster 0            |  Cluster 1
-:-------------------------:|:-------------------------:|:-------------------------:
-![](./assets/img4.png)  |  ![](./assets/img4_0.png)  | ![](./assets/img4_1.png) 
-
-
-<!-- | Complete Corpus   | Cluster 0  | Cluster 1 |
+| Complete Corpus   | Cluster 0  | Cluster 1 |
 | --------------- | --------------- | --------------- |
-| Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
-| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
-| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | -->
+| ![](./assets/img4.png) | ![](./assets/img4_0.png) | ![](./assets/img4_1.png) |
+
 
 <!-- ![](./assets/img4.png)
 ![](./assets/img4_0.png)
