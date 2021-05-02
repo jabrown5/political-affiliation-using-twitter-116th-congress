@@ -110,8 +110,8 @@ Also, the most frequently occuring words are below and include 'today', 'work', 
 
 <!-- <p float="left">
   <img src="/assets/img4.png" max_width="100%" />
-  <img src="/assets/img4_0.png" max_width="100%" /> 
-  <img src="/assets/img4_1.png" max_width="100%" />
+  <img src="/assets/img4-0.png" max_width="100%" /> 
+  <img src="/assets/img4-1.png" max_width="100%" />
 </p>
  -->
 <!-- | Complete Corpus   | Cluster 0  | Cluster 1 |
@@ -124,11 +124,11 @@ Also, the most frequently occuring words are below and include 'today', 'work', 
 
 **Cluster 0 most frequent word list**
 
-![](./assets/img4_0.png)
+![](./assets/img4-0.png)
 
 **Cluster 1 most frequent word list**
 
-![](./assets/img4_1.png)
+![](./assets/img4-1.png)
 
 #### Sentiment Analyses
 
