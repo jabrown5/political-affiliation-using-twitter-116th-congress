@@ -106,29 +106,10 @@ Based on the silhouette scores and inertia values, the final model selected was 
 
 Once the final model had been determined, analysis of these clusters was undertaken. The final model had two clusters: Cluster 0 with 278 rows or documents and the slightly smaller Cluster 1 with 243 rows.
 
-Also, the most frequently occuring words are below and include 'today', 'work', 'need', 'Trump', and 'help'.
-
-<!-- <p float="left">
-  <img src="/assets/img4.png" max_width="100%" />
-  <img src="/assets/img4-0.png" max_width="100%" /> 
-  <img src="/assets/img4-1.png" max_width="100%" />
-</p>
- -->
-<!-- | Complete Corpus   | Cluster 0  | Cluster 1 |
-| --------------- | --------------- | --------------- |
-| ![](./assets/img4.png) | ![](./assets/img4_0.png) | ![](./assets/img4_1.png) | -->
-
-**Complete Corpus**
+Also, the most frequently occuring words are below and include 'today', 'work', 'need', 'Trump', and 'help' for the complete corpus. When examining clusters, however, the top words differ with Cluster 1's top five words being 'today', 'work', 'thank', help', and 'need'. Cluster 0's top five did not differ from the overall corpus.
 
 ![](./assets/img4.png)
 
-**Cluster 0 most frequent word list**
-
-![](./assets/img12.png)
-
-**Cluster 1 most frequent word list**
-
-![](./assets/img13.png)
 
 #### Sentiment Analyses
 
