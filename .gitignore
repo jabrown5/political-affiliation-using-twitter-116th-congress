@@ -10,6 +10,9 @@ code/Untitled.ipynb
 cleaned_df.csv
 concat_df.csv
 
+assets/Most_Frequent_Words_Table.docx
+assets/Model_Comparison.xlsx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
